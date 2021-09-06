@@ -78,7 +78,9 @@ Kubeconfig to access Kubectl command
 
 `sudo chown $(id -u):$(id -g) $HOME/.kube/config`
 
-# On worker node: same.
+# On worker node: 
+
+same.
 (except the kubeconfig to access kubectl command part)
 
 then from worker node:
