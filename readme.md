@@ -173,7 +173,7 @@ metadata:
 spec:
   type: NodePort
   ports:
-  - port: 80
+  -port: 80
   selector:
     app: guestbook
     tier: frontend`
