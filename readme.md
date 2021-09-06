@@ -163,7 +163,7 @@ but if you `kubectl get pods` there will be another pod just respawned because o
 
 ***paste the folowing :***
 
-apiVersion: v1
+`apiVersion: v1
 kind: Service
 metadata:
   name: frontend
@@ -180,7 +180,7 @@ spec:
   - port: 80
   selector:
     app: guestbook
-    tier: frontend
+    tier: frontend`
 
 
 `kubectl apply -f service.yaml`
